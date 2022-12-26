@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+img[alt="profile-pic"] {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+img[alt="profile-pic"]:hover {
+    outline: 4px solid rgb(231, 236, 239);
+}
+
+
+
+
+
+.profile-img-popUp {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 450px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px;
+    display: none;
+}
+
+.profile-img-popUp hr {
+    width: 100%;
+}
+
+.profile-img-popUp img {
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 27px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(163, 160, 160);
+    border-radius: 50%;
+}
+
+.bi-camera {
+    position: absolute;
+    top: 100px;
+    right: 180px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 5px 5px 4px;
+    box-shadow: 0 0 5px gray;
+    cursor: pointer;
+}
+
+.bi-camera:hover {
+    color: rgb(9, 136, 248);
+}
+
+.name-1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 21px;
+    margin-bottom: 5px;
+}
+
+.email-1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: rgb(104, 104, 104);
+    margin-bottom: 20px;
+}
+
+.manage-account {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(65, 65, 65);
+    border: 1px solid rgb(170, 168, 168);
+    border-radius: 25px;
+    padding: 9px 25px 13px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.manage-account:hover {
+    background-color: rgba(217, 218, 220, 0.3);
+}
+
+.user-div {
+    width: 100%;
+    padding: 10px 50px 15px;
+    display: flex;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.user-div:hover {
+    background-color: rgba(217, 218, 220, 0.3);
+}
+
+.first-letter {
+    font-size: 21px;
+    font-weight: 500;
+    padding: 4px 18px 10px;
+    border-radius: 50%;
+    color: white;
+    background-color: brown;
+    margin-right: 10px;
+}
+
+.name-2 {
+    color: rgb(65, 65, 65);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.add-account-div {
+    width: 100%;
+    padding: 15px 60px 15px;
+    display: flex;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.add-account-div:hover {
+    background-color: rgba(217, 218, 220, 0.3);
+}
+
+.add-account-div span {
+    font-size: 28px;
+    font-weight: 500;
+    color: rgb(65, 65, 65);
+    margin-right: 20px;
+}
+
+.add-account {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(65, 65, 65);
+}
+
+.sign-out {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(65, 65, 65);
+    border: 1px solid rgb(170, 168, 168);
+    border-radius: 5px;
+    padding: 9px 28px 13px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.sign-out:hover {
+    background-color: rgba(217, 218, 220, 0.3);
+}
+
+.privacy-terms {
+    display: flex;
+    padding: 20px;
+}
+
+.privacy-terms p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.privacy-terms p:hover {
+    background-color: rgba(217, 218, 220, 0.3);
+}
